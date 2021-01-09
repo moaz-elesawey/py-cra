@@ -1,3 +1,4 @@
 ./PyCRA/__pycache__/
 dist/
 build/
+src/pycra.egg-info/
