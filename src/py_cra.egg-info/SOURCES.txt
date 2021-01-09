@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/PyCRA/__init__.py
+src/PyCRA/__main__.py
+src/PyCRA/files_content.py
+src/PyCRA/messages.py
+src/PyCRA/parser.py
+src/py_cra.egg-info/PKG-INFO
+src/py_cra.egg-info/SOURCES.txt
+src/py_cra.egg-info/dependency_links.txt
+src/py_cra.egg-info/top_level.txt
