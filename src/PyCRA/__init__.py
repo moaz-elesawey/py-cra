@@ -9,6 +9,8 @@ from PyCRA.files_content import (BABELRC_CONTENT,
                                 INDEX_HTML_FLASK_CONTENT,
                                 APP_JS_CONTENT)
 
+__version__ = '0.0.3'
+
 BASE_DIR = Path.cwd()
 
 

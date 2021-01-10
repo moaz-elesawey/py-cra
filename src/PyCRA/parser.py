@@ -6,6 +6,6 @@ def create_parser():
     parser.add_argument('--mode', type=str, help="django or flask mode")
     parser.add_argument('--app_name', type=str, help='app name if django mode')
     parser.add_argument('--app_dir', type=str, help='app dir if flask mode')
-
+    parser.add_argument('--version', type=str, help='version of the package')
 
     return parser

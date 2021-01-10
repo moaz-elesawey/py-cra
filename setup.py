@@ -8,7 +8,7 @@ long_desc = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
         name='py_cra',
-        version='0.0.2',
+        version='0.0.3',
         description='Python tool to create an react web app for django or flask backend',
         long_description=long_desc,
         long_description_content_type='text/markdown',
@@ -16,7 +16,7 @@ setup(
         author='Moaz Mohammed El-Esawey',
         author_email='mohammedmiaz3141@gmail.com',
         classifiers=[
-            'Development Status :: 3 - Alpha',
+            'Development Status :: 5 - Production/Stable',
             'License :: OSI Approved :: MIT License',
             'Programming Language :: Python :: 3',
         ],

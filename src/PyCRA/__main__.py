@@ -1,11 +1,17 @@
 from PyCRA import PycraDjango, PycraFlask
 from PyCRA.parser import create_parser
 from PyCRA.messages import ERROR_MESSAGE
+
+from PyCRA._checker import _check
+
 import sys
 
 
 parser = create_parser()
 args = parser.parse_args()
+
+
+_check()
 
 if args.mode:
     if args.mode == 'django':
