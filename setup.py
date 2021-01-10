@@ -8,7 +8,7 @@ long_desc = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
         name='py_cra',
-        version='0.0.4',
+        version='0.0.6',
         description='Python tool to create an react web app for django or flask backend',
         long_description=long_desc,
         long_description_content_type='text/markdown',
