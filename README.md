@@ -63,6 +63,19 @@ optional arguments:
 
 ## Post Creation
 
+After that you need to run this command
+```sh
+$ npm run dev
+```
+to compile your js source files and create the `main.js`that
+get loaded into the `index.html` and load the app into your browser.
+make sure that the `$ npm run dev` run and remain watching any changes into your files. it recompile every this once any change is happened to the js source files.
+finally to build the app you shoud use the.
+```sh
+$ npm run build
+```
+to finally compile your app.
+
 #### Django
 In case of django backend add a view into the `frontend/views.py`.
 In here we use the `frontend` name as the django app.
