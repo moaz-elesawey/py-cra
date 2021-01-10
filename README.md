@@ -27,16 +27,16 @@ $ python -m PyCRA
 $ python -m PyCRA --mode=flask --app_dir=app
 ```
 Here your have two options 
-	- either you execute this command from outside your app directory like
-		- ./
-		- ../
-		- app/
-		- `$ python -m PyCRA --mode=flask --app_dir=app`
-	- or fron inside your app directory like.
-		- ./
-		- ../
-		- run.py
-		- `$ python -m PyCRA --mode=flask --app_dir=.
+- either you execute this command from outside your app directory like
+	- ./
+	- ../
+	- app/
+	- `$ python -m PyCRA --mode=flask --app_dir=app`
+- or fron inside your app directory like.
+	- ./
+	- ../
+	- run.py
+	- `$ python -m PyCRA --mode=flask --app_dir=.`
 
 replace the app with your application directory.
 
