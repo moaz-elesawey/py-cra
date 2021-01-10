@@ -26,12 +26,27 @@ $ python -m PyCRA
 ```sh
 $ python -m PyCRA --mode=flask --app_dir=app
 ```
+Here your have two options 
+	- either you execute this command from outside your app directory like
+		- ./
+		- ../
+		- app/
+		- `$ python -m PyCRA --mode=flask --app_dir=app`
+	- or fron inside your app directory like.
+		- ./
+		- ../
+		- run.py
+		- `$ python -m PyCRA --mode=flask --app_dir=.
+
 replace the app with your application directory.
 
 #### Django Usage
 ```sh
 $ python -m PyCRA --mode=django --app_name=name
 ```
+Here you must be in your `BASE_DIR` or the directory where the `manage.py` lives. this is important so your application did not get messed up.
+**Make sure that you have create tha django app first before you execute the command.**
+
 replace the name with your django app name
 
 ## Help
