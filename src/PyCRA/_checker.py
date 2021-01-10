@@ -15,7 +15,6 @@ def _check_path():
         if os.path.isfile(d+'/node'):
             _node = True
 
-    print(_node, _npm)
     if _node and _npm:
         return True
     else:
